@@ -18,7 +18,7 @@ let englisch1 = [
     "Gustaf"
 ]
 
-let englisch1 = [
+let englisch2 = [
     "Kleo",
     "Anna",
     "Jessica",
@@ -26,8 +26,11 @@ let englisch1 = [
 ]
 
 
+console.log(englisch1.indexOf("Paul"))
+englisch1.push("Luca")
+console.log(englisch1)
 
-
+console.log(englisch1.splice(3,1))
 
 
 
